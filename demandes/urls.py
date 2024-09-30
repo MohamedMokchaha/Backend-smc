@@ -1,7 +1,7 @@
 from django.urls import path
 
-from demandes.views import create_demande_api
+from demandes.views import save_application
 
 urlpatterns = [
-    path('api/create-demande/', create_demande_api, name='create_demande_api'),
+    path('save/', save_application, name='save_application'),
 ]
