@@ -25,10 +25,19 @@ SECRET_KEY = 'django-insecure-4^8)#e$)l770ejj#+5hevix=6dnvjul#*hpy3ntf(n2+)nw9*#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# settings.py
+
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "smc-deploy.web.app",
+    "smc-deploy.firebaseapp.com",
+]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
+    "https://smc-deploy.web.app",
+    "https://smc-deploy.firebaseapp.com",
 ]
 
 # Ou pour autoriser toutes les origines (pas recommandé en production)
