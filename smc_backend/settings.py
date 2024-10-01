@@ -40,6 +40,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
     "https://smc-deploy.web.app",
     "https://smc-deploy.firebaseapp.com",
+    "https://backend-smc-sirius.onrender.com",
 ]
 
 # Ou pour autoriser toutes les origines (pas recommandé en production)
