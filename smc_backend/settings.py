@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4^8)#e$)l770ejj#+5hevix=6dnvjul#*hpy3ntf(n2+)nw9*#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # settings.py
 
@@ -32,6 +32,7 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "smc-deploy.web.app",
     "smc-deploy.firebaseapp.com",
+    'backend-smc.onrender.com',
 ]
 
 CORS_ALLOWED_ORIGINS = [
