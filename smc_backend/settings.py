@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
     "smc-deploy.web.app",
     "smc-deploy.firebaseapp.com",
     'backend-smc.onrender.com',
+    "backend-smc-sirius.onrender.com",
 ]
 
 CORS_ALLOWED_ORIGINS = [
