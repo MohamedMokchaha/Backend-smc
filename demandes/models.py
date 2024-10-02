@@ -25,13 +25,13 @@ class Demande(models.Model):
     vehicle_type = models.CharField(max_length=50)
     registration_number = models.CharField(max_length=50)
     first_registration_date = models.DateField()
-    acquisition_date = models.DateField()
+    acquisition_date = models.DateField(null=True, blank=True)  # Autoriser NULL
 
     # Champs pour le permis
-    permis_a1 = models.DateField()
-    permis_a2 = models.DateField()
-    permis_a = models.DateField()
-    permis_b = models.DateField()
+    permis_a1 = models.DateField(null=True, blank=True)  # Autoriser NULL
+    permis_a2 = models.DateField(null=True, blank=True)  # Autoriser NULL
+    permis_a = models.DateField(null=True, blank=True)  # Autoriser NULL
+    permis_b = models.DateField(null=True, blank=True)  # Autoriser NULL
     annulation_a1 = models.BooleanField()
     annulation_a2 = models.BooleanField()
     annulation_a = models.BooleanField()
